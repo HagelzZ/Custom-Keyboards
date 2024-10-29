@@ -4,13 +4,18 @@ points:
       anchor:
         rotate: -5
       columns:
+        outer:
+          key.height: cy
+          key.width: cx
+          key.padding: 18
         pinky:
+          key.stagger: 2.5
           key.height: cy
           key.width: cx
           key.padding: 18
         ring:
           key.splay: 0
-          key.origin: [-12, -19]
+          key.origin: [0, 0]
           key.stagger: 7
           key.height: cy
           key.width: cx
