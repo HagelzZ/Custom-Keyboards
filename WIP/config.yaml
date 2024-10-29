@@ -2,48 +2,29 @@ points:
   zones:
     matrix:
       anchor:
-        rotate: -5
+        rotate: -10
       columns:
         outer:
-          key.height: cy
-          key.width: cx
-          key.padding: 18
         pinky:
           key.stagger: 2.5
-          key.height: cy
-          key.width: cx
-          key.padding: 18
         ring:
-          key.splay: 0
-          key.origin: [0, 0]
           key.stagger: 7
-          key.height: cy
-          key.width: cx
-          key.padding: 18
         middle:
           key.stagger: 5
-          key.height: cy
-          key.width: cx
-          key.padding: 18
         index:
           key.stagger: -7
-          key.height: cy
-          key.width: cx
-          key.padding: 18
-        inner:
-          key.stagger: -4
-          key.height: cy
-          key.width: cx
-          key.padding: 18
+        indexfar:
+          key.stagger: -2.5
       rows:
         bottom:
         home:
         top:
         number:
-    thumbfan:
+        frow:
+    thumbrow:
       anchor:
-        ref: matrix_inner_bottom
-        shift: [-20, -21]
+        ref: matrix_index_bottom
+        shift: [0, -25]
       columns:
         near:
           key.splay: -21
@@ -51,13 +32,11 @@ points:
           key.width: cx
           key.padding: 18
         home:
-          key.splay: 0
           key.origin: [-11.75, -9]
           key.height: cy
           key.width: cx
           key.padding: 18
         far:
-          key.splay: 0
           key.origin: [-9.5, -9]
           key.height: cy
           key.width: cx
@@ -66,5 +45,5 @@ points:
         thumb:
   rotate: 0
   mirror:
-    ref: matrix_pinky_home
-    distance: 225
+    ref: matrix_indexfar_home
+    distance: 75
