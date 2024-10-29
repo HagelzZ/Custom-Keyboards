@@ -11,7 +11,7 @@ points:
   zones:
     matrix:
       anchor:
-        rotate: 0
+        rotate: -10
       columns:
         outer:
         pinky:
@@ -33,7 +33,7 @@ points:
     thumbrow:
       anchor:
         ref: matrix_index_bottom
-        shift: [0, -25]
+        shift: [0, -1.5ky]
       columns:
         near:
           key.splay: -21
@@ -52,4 +52,52 @@ points:
           key.padding: 18
       rows:
         thumb:
-  rotate: 0
+  mirror:
+    ref: matrix_index_home
+    distance: 100
+outlines:
+  plate:
+    - what: rectangle
+      where: true
+      size: [cx + px, cy + py]
+      fillet: 1.2
+    - what: polygon
+      points:
+        - ref: thumbrow_near_thumb
+          shift: [-9.75, -9.75]
+        - ref: matrix_index_bottom
+          shift: [-10, -8]
+        - ref: matrix_indexfar_frow
+          shift: [8, 9.5]
+        - ref: mirror_matrix_indexfar_frow
+          shift: [8, 9.5]
+        - ref: mirror_matrix_index_bottom
+          shift: [-10, -8]
+        - ref: mirror_thumbrow_near_thumb
+          shift: [-9.75, -9.75]
+        - ref: mirror_thumbrow_far_thumb
+          shift: [9.5, -9.75]
+        - ref: thumbrow_far_thumb
+          shift: [9.5, -9.75]
+      fillet: 1.2
+      operation: add
+pcbs:
+  middle:
+    outlines:
+      main:
+        outline: plate
+    footprints:
+      keyswitches:
+        where: true
+        what: choc
+        params:
+          hotswap: true
+          from: "{{col_net}}"
+          to: "{{colrow}}"
+      pro_micro:
+        what: pro_micro
+        params:
+          orientation: down
+        where:
+          ref: matrix_indexfar_number
+          shift: [50, 0, 10]
