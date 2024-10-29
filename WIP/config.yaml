@@ -1,8 +1,17 @@
+meta:
+  engine: 4.0.2
+  version: 1
+  author: HagelzZ
+units:
+  kx: cx
+  ky: cy
+  px: 2
+  py: 2
 points:
   zones:
     matrix:
       anchor:
-        rotate: -10
+        rotate: 0
       columns:
         outer:
         pinky:
@@ -44,6 +53,3 @@ points:
       rows:
         thumb:
   rotate: 0
-  mirror:
-    ref: matrix_indexfar_home
-    distance: 75
