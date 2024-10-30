@@ -12,6 +12,7 @@ points:
     matrix:
       anchor:
         rotate: -10
+        shift: [100, -100]
       columns:
         outer:
         pinky:
@@ -21,8 +22,14 @@ points:
         middle:
           key.stagger: 5
         index:
+          key:
+            col_net: P20
+            mirror.col_net: P0
           key.stagger: -7
         indexfar:
+          key:
+            col_net: P21
+            mirror.col_net: P1
           key.stagger: -2.5
       rows:
         bottom:
@@ -84,18 +91,26 @@ pcbs:
       main:
         outline: plate
     footprints:
-      keyswitches:
+      hotswap_choc:
         where: true
         what: choc
         params:
           hotswap: true
           from: "{{col_net}}"
           to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
       pro_micro:
         what: promicro
         params:
           orientation: down
         where:
-          ref: matrix_indexfar_frow
-          shift: [23.5, -7.6]
-          rotate: -80
+          ref.aggregate.parts: [matrix_indexfar_frow, mirror_matrix_indexfar_frow]
+          shift: [0, -10]
+          rotate: -90
