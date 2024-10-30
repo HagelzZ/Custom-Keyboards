@@ -39,17 +39,14 @@ points:
           key.splay: -21
           key.height: cy
           key.width: cx
-          key.padding: 18
         home:
           key.origin: [-11.75, -9]
           key.height: cy
           key.width: cx
-          key.padding: 18
         far:
           key.origin: [-9.5, -9]
           key.height: cy
           key.width: cx
-          key.padding: 18
       rows:
         thumb:
   mirror:
