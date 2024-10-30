@@ -82,7 +82,7 @@ outlines:
       fillet: 1.2
       operation: add
 pcbs:
-  middle:
+  cicadav1:
     outlines:
       main:
         outline: plate
@@ -99,5 +99,6 @@ pcbs:
         params:
           orientation: down
         where:
-          ref: matrix_indexfar_number
-          shift: [50, 0]
+          ref: matrix_indexfar_frow
+          shift: [23.5, -7.6]
+          rotate: -80
