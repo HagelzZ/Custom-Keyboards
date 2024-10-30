@@ -95,9 +95,9 @@ pcbs:
           from: "{{col_net}}"
           to: "{{colrow}}"
       pro_micro:
-        what: pro_micro
+        what: promicro
         params:
           orientation: down
         where:
           ref: matrix_indexfar_number
-          shift: [50, 0, 10]
+          shift: [50, 0]
