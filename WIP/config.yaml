@@ -58,7 +58,7 @@ points:
         thumb:
   mirror:
     ref: matrix_index_home
-    distance: 100
+    distance: 90
 outlines:
   plate:
     - what: rectangle
@@ -105,12 +105,12 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [0, -5]
+          shift: [0, -8.5]
       pro_micro:
         what: promicro
         params:
           orientation: down
         where:
-          ref.aggregate.parts: [matrix_indexfar_frow, mirror_matrix_indexfar_frow]
+          ref.aggregate.parts: [matrix_indexfar_number, mirror_matrix_indexfar_number]
           shift: [0, -10]
           rotate: -90
