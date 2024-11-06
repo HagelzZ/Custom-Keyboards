@@ -123,64 +123,64 @@
 (net 28 "indexfar_top")
 (net 29 "indexfar_number")
 (net 30 "indexfar_frow")
-(net 31 "P19")
-(net 32 "near_thumb")
-(net 33 "P20")
-(net 34 "home_thumb")
-(net 35 "P21")
-(net 36 "far_thumb")
-(net 37 "mirror_outer_bottom")
-(net 38 "mirror_outer_home")
-(net 39 "mirror_outer_top")
-(net 40 "mirror_outer_number")
-(net 41 "mirror_outer_frow")
-(net 42 "mirror_pinky_bottom")
-(net 43 "mirror_pinky_home")
-(net 44 "mirror_pinky_top")
-(net 45 "mirror_pinky_number")
-(net 46 "mirror_pinky_frow")
-(net 47 "mirror_ring_bottom")
-(net 48 "mirror_ring_home")
-(net 49 "mirror_ring_top")
-(net 50 "mirror_ring_number")
-(net 51 "mirror_ring_frow")
-(net 52 "mirror_middle_bottom")
-(net 53 "mirror_middle_home")
-(net 54 "mirror_middle_top")
-(net 55 "mirror_middle_number")
-(net 56 "mirror_middle_frow")
-(net 57 "mirror_index_bottom")
-(net 58 "mirror_index_home")
-(net 59 "mirror_index_top")
-(net 60 "mirror_index_number")
-(net 61 "mirror_index_frow")
-(net 62 "mirror_indexfar_bottom")
-(net 63 "mirror_indexfar_home")
-(net 64 "mirror_indexfar_top")
-(net 65 "mirror_indexfar_number")
-(net 66 "mirror_indexfar_frow")
-(net 67 "mirror_near_thumb")
-(net 68 "mirror_home_thumb")
-(net 69 "mirror_far_thumb")
-(net 70 "P15")
-(net 71 "P18")
-(net 72 "P9")
+(net 31 "near_thumb")
+(net 32 "home_thumb")
+(net 33 "far_thumb")
+(net 34 "mirror_outer_bottom")
+(net 35 "mirror_outer_home")
+(net 36 "mirror_outer_top")
+(net 37 "mirror_outer_number")
+(net 38 "mirror_outer_frow")
+(net 39 "mirror_pinky_bottom")
+(net 40 "mirror_pinky_home")
+(net 41 "mirror_pinky_top")
+(net 42 "mirror_pinky_number")
+(net 43 "mirror_pinky_frow")
+(net 44 "mirror_ring_bottom")
+(net 45 "mirror_ring_home")
+(net 46 "mirror_ring_top")
+(net 47 "mirror_ring_number")
+(net 48 "mirror_ring_frow")
+(net 49 "mirror_middle_bottom")
+(net 50 "mirror_middle_home")
+(net 51 "mirror_middle_top")
+(net 52 "mirror_middle_number")
+(net 53 "mirror_middle_frow")
+(net 54 "mirror_index_bottom")
+(net 55 "mirror_index_home")
+(net 56 "mirror_index_top")
+(net 57 "mirror_index_number")
+(net 58 "mirror_index_frow")
+(net 59 "mirror_indexfar_bottom")
+(net 60 "mirror_indexfar_home")
+(net 61 "mirror_indexfar_top")
+(net 62 "mirror_indexfar_number")
+(net 63 "mirror_indexfar_frow")
+(net 64 "mirror_near_thumb")
+(net 65 "mirror_home_thumb")
+(net 66 "mirror_far_thumb")
+(net 67 "P16")
+(net 68 "P14")
+(net 69 "P15")
+(net 70 "P18")
+(net 71 "P19")
+(net 72 "P10")
 (net 73 "P8")
-(net 74 "RAW")
-(net 75 "GND")
-(net 76 "RST")
-(net 77 "VCC")
-(net 78 "P14")
-(net 79 "P16")
-(net 80 "P10")
-(net 81 "P1")
-(net 82 "P0")
-(net 83 "P2")
-(net 84 "P3")
-(net 85 "P4")
-(net 86 "P5")
-(net 87 "P6")
-(net 88 "P7")
+(net 74 "P7")
+(net 75 "P6")
+(net 76 "P5")
+(net 77 "P4")
+(net 78 "P9")
+(net 79 "RAW")
+(net 80 "GND")
+(net 81 "RST")
+(net 82 "VCC")
+(net 83 "P21")
+(net 84 "P20")
+(net 85 "P1")
+(net 86 "P0")
+(net 87 "P2")
+(net 88 "P3")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -220,11 +220,8 @@
 (add_net "indexfar_top")
 (add_net "indexfar_number")
 (add_net "indexfar_frow")
-(add_net "P19")
 (add_net "near_thumb")
-(add_net "P20")
 (add_net "home_thumb")
-(add_net "P21")
 (add_net "far_thumb")
 (add_net "mirror_outer_bottom")
 (add_net "mirror_outer_home")
@@ -259,25 +256,28 @@
 (add_net "mirror_near_thumb")
 (add_net "mirror_home_thumb")
 (add_net "mirror_far_thumb")
+(add_net "P16")
+(add_net "P14")
 (add_net "P15")
 (add_net "P18")
-(add_net "P9")
+(add_net "P19")
+(add_net "P10")
 (add_net "P8")
+(add_net "P7")
+(add_net "P6")
+(add_net "P5")
+(add_net "P4")
+(add_net "P9")
 (add_net "RAW")
 (add_net "GND")
 (add_net "RST")
 (add_net "VCC")
-(add_net "P14")
-(add_net "P16")
-(add_net "P10")
+(add_net "P21")
+(add_net "P20")
 (add_net "P1")
 (add_net "P0")
 (add_net "P2")
 (add_net "P3")
-(add_net "P4")
-(add_net "P5")
-(add_net "P6")
-(add_net "P7")
   )
 
   
@@ -1423,8 +1423,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 31 "P19"))
-          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 32 "near_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 31 "near_thumb"))
         )
         
 
@@ -1460,8 +1460,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 33 "P20"))
-          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 34 "home_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 32 "home_thumb"))
         )
         
 
@@ -1497,8 +1497,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 35 "P21"))
-          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 36 "far_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 -31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 33 "far_thumb"))
         )
         
 
@@ -1535,7 +1535,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 37 "mirror_outer_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 34 "mirror_outer_bottom"))
         )
         
 
@@ -1572,7 +1572,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 38 "mirror_outer_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 35 "mirror_outer_home"))
         )
         
 
@@ -1609,7 +1609,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 39 "mirror_outer_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 36 "mirror_outer_top"))
         )
         
 
@@ -1646,7 +1646,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 40 "mirror_outer_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 37 "mirror_outer_number"))
         )
         
 
@@ -1683,7 +1683,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 41 "mirror_outer_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 38 "mirror_outer_frow"))
         )
         
 
@@ -1720,7 +1720,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 42 "mirror_pinky_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 39 "mirror_pinky_bottom"))
         )
         
 
@@ -1757,7 +1757,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 43 "mirror_pinky_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 40 "mirror_pinky_home"))
         )
         
 
@@ -1794,7 +1794,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 44 "mirror_pinky_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 41 "mirror_pinky_top"))
         )
         
 
@@ -1831,7 +1831,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 45 "mirror_pinky_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 42 "mirror_pinky_number"))
         )
         
 
@@ -1868,7 +1868,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 46 "mirror_pinky_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 43 "mirror_pinky_frow"))
         )
         
 
@@ -1905,7 +1905,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 47 "mirror_ring_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 44 "mirror_ring_bottom"))
         )
         
 
@@ -1942,7 +1942,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 48 "mirror_ring_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 45 "mirror_ring_home"))
         )
         
 
@@ -1979,7 +1979,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 49 "mirror_ring_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 46 "mirror_ring_top"))
         )
         
 
@@ -2016,7 +2016,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "mirror_ring_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 47 "mirror_ring_number"))
         )
         
 
@@ -2053,7 +2053,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "mirror_ring_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 48 "mirror_ring_frow"))
         )
         
 
@@ -2090,7 +2090,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "mirror_middle_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 49 "mirror_middle_bottom"))
         )
         
 
@@ -2127,7 +2127,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "mirror_middle_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 50 "mirror_middle_home"))
         )
         
 
@@ -2164,7 +2164,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "mirror_middle_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 51 "mirror_middle_top"))
         )
         
 
@@ -2201,7 +2201,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 55 "mirror_middle_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 52 "mirror_middle_number"))
         )
         
 
@@ -2238,7 +2238,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 56 "mirror_middle_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 53 "mirror_middle_frow"))
         )
         
 
@@ -2275,7 +2275,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 57 "mirror_index_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 54 "mirror_index_bottom"))
         )
         
 
@@ -2312,7 +2312,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 58 "mirror_index_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 55 "mirror_index_home"))
         )
         
 
@@ -2349,7 +2349,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 59 "mirror_index_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 56 "mirror_index_top"))
         )
         
 
@@ -2386,7 +2386,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 60 "mirror_index_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 57 "mirror_index_number"))
         )
         
 
@@ -2423,7 +2423,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 61 "mirror_index_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 58 "mirror_index_frow"))
         )
         
 
@@ -2460,7 +2460,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 62 "mirror_indexfar_bottom"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 59 "mirror_indexfar_bottom"))
         )
         
 
@@ -2497,7 +2497,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 63 "mirror_indexfar_home"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 60 "mirror_indexfar_home"))
         )
         
 
@@ -2534,7 +2534,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 64 "mirror_indexfar_top"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 61 "mirror_indexfar_top"))
         )
         
 
@@ -2571,7 +2571,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 65 "mirror_indexfar_number"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 62 "mirror_indexfar_number"))
         )
         
 
@@ -2608,7 +2608,7 @@
       
           
           (pad 1 smd rect (at -3.275 -5.95 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
-          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 66 "mirror_indexfar_frow"))
+          (pad 2 smd rect (at 8.275 -3.75 10) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 63 "mirror_indexfar_frow"))
         )
         
 
@@ -2644,8 +2644,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 31 "P19"))
-          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 67 "mirror_near_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 64 "mirror_near_thumb"))
         )
         
 
@@ -2681,8 +2681,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 33 "P20"))
-          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 68 "mirror_home_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 65 "mirror_home_thumb"))
         )
         
 
@@ -2718,8 +2718,8 @@
           (pad "" np_thru_hole circle (at 0 -5.95) (size 3 3) (drill 3) (layers *.Cu *.Mask))
       
           
-          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 35 "P21"))
-          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 69 "mirror_far_thumb"))
+          (pad 1 smd rect (at -3.275 -5.95 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 0 ""))
+          (pad 2 smd rect (at 8.275 -3.75 31) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask)  (net 66 "mirror_far_thumb"))
         )
         
 
@@ -2727,7 +2727,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 98.5239905 158.3708659 -10)
+        (at 98.4371664 158.8632698 -10)
 
         
         (fp_text reference "D1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2750,13 +2750,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 1 "outer_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 1 "outer_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 1 "outer_bottom"))
     )
   
@@ -2766,7 +2766,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 101.64965769999999 140.64432630000002 -10)
+        (at 101.56283359999999 141.13673020000002 -10)
 
         
         (fp_text reference "D2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2789,13 +2789,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 2 "outer_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 2 "outer_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 2 "outer_home"))
     )
   
@@ -2805,7 +2805,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 104.77532489999999 122.91778670000001 -10)
+        (at 104.68850079999999 123.4101906 -10)
 
         
         (fp_text reference "D3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2828,13 +2828,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 3 "outer_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 3 "outer_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 3 "outer_top"))
     )
   
@@ -2844,7 +2844,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 107.90099209999998 105.19124710000001 -10)
+        (at 107.81416799999998 105.68365100000001 -10)
 
         
         (fp_text reference "D4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2867,13 +2867,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 4 "outer_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 4 "outer_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 4 "outer_number"))
     )
   
@@ -2883,7 +2883,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 111.02665929999998 87.46470750000002 -10)
+        (at 110.93983519999998 87.95711140000002 -10)
 
         
         (fp_text reference "D5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2906,13 +2906,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 5 "outer_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 5 "outer_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 5 "outer_frow"))
     )
   
@@ -2922,7 +2922,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 117.6694583 159.20816190000002 -10)
+        (at 117.5826342 159.70056580000002 -10)
 
         
         (fp_text reference "D6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2945,13 +2945,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 6 "pinky_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 6 "pinky_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 6 "pinky_bottom"))
     )
   
@@ -2961,7 +2961,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 120.7951255 141.48162230000003 -10)
+        (at 120.7083014 141.97402620000003 -10)
 
         
         (fp_text reference "D7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -2984,13 +2984,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 7 "pinky_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 7 "pinky_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 7 "pinky_home"))
     )
   
@@ -3000,7 +3000,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 123.92079269999999 123.75508270000002 -10)
+        (at 123.83396859999999 124.24748660000002 -10)
 
         
         (fp_text reference "D8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3023,13 +3023,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 8 "pinky_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 8 "pinky_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 8 "pinky_top"))
     )
   
@@ -3039,7 +3039,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 127.0464599 106.02854310000002 -10)
+        (at 126.9596358 106.52094700000002 -10)
 
         
         (fp_text reference "D9" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3062,13 +3062,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 9 "pinky_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 9 "pinky_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 9 "pinky_number"))
     )
   
@@ -3078,7 +3078,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 130.1721271 88.30200350000003 -10)
+        (at 130.085303 88.79440740000003 -10)
 
         
         (fp_text reference "D10" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3101,13 +3101,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 10 "pinky_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 10 "pinky_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 10 "pinky_frow"))
     )
   
@@ -3117,7 +3117,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 137.5963428 155.61382300000002 -10)
+        (at 137.5095187 156.10622690000002 -10)
 
         
         (fp_text reference "D11" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3140,13 +3140,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 11 "ring_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 11 "ring_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 11 "ring_bottom"))
     )
   
@@ -3156,7 +3156,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 140.72201 137.88728340000003 -10)
+        (at 140.6351859 138.37968730000003 -10)
 
         
         (fp_text reference "D12" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3179,13 +3179,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 12 "ring_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 12 "ring_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 12 "ring_home"))
     )
   
@@ -3195,7 +3195,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 143.84767720000002 120.16074380000002 -10)
+        (at 143.76085310000002 120.65314770000002 -10)
 
         
         (fp_text reference "D13" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3218,13 +3218,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 13 "ring_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 13 "ring_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 13 "ring_top"))
     )
   
@@ -3234,7 +3234,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 146.97334440000003 102.43420420000002 -10)
+        (at 146.88652030000003 102.92660810000002 -10)
 
         
         (fp_text reference "D14" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3257,13 +3257,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 14 "ring_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 14 "ring_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 14 "ring_number"))
     )
   
@@ -3273,7 +3273,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 150.09901160000004 84.70766460000003 -10)
+        (at 150.01218750000004 85.20006850000003 -10)
 
         
         (fp_text reference "D15" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3296,13 +3296,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 15 "ring_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 15 "ring_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 15 "ring_frow"))
     )
   
@@ -3312,7 +3312,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 157.175931 153.9890996 -10)
+        (at 157.0891069 154.4815035 -10)
 
         
         (fp_text reference "D16" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3335,13 +3335,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 16 "middle_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 16 "middle_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 16 "middle_bottom"))
     )
   
@@ -3351,7 +3351,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 160.3015982 136.26256 -10)
+        (at 160.2147741 136.7549639 -10)
 
         
         (fp_text reference "D17" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3374,13 +3374,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 17 "middle_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 17 "middle_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 17 "middle_home"))
     )
   
@@ -3390,7 +3390,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 163.4272654 118.5360204 -10)
+        (at 163.3404413 119.0284243 -10)
 
         
         (fp_text reference "D18" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3413,13 +3413,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 18 "middle_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 18 "middle_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 18 "middle_top"))
     )
   
@@ -3429,7 +3429,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 166.55293260000002 100.8094808 -10)
+        (at 166.46610850000002 101.3018847 -10)
 
         
         (fp_text reference "D19" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3452,13 +3452,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 19 "middle_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 19 "middle_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 19 "middle_number"))
     )
   
@@ -3468,7 +3468,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 169.67859980000003 83.08294120000001 -10)
+        (at 169.59177570000003 83.5753451 -10)
 
         
         (fp_text reference "D20" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3491,13 +3491,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 20 "middle_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 20 "middle_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 20 "middle_frow"))
     )
   
@@ -3507,7 +3507,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 174.6717411 164.18206930000002 -10)
+        (at 174.584917 164.67447320000002 -10)
 
         
         (fp_text reference "D21" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3530,13 +3530,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 21 "index_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 21 "index_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 21 "index_bottom"))
     )
   
@@ -3546,7 +3546,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 177.7974083 146.45552970000003 -10)
+        (at 177.7105842 146.94793360000003 -10)
 
         
         (fp_text reference "D22" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3569,13 +3569,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 22 "index_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 22 "index_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 22 "index_home"))
     )
   
@@ -3585,7 +3585,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 180.9230755 128.72899010000003 -10)
+        (at 180.8362514 129.22139400000003 -10)
 
         
         (fp_text reference "D23" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3608,13 +3608,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 23 "index_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 23 "index_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 23 "index_top"))
     )
   
@@ -3624,7 +3624,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 184.04874270000002 111.00245050000002 -10)
+        (at 183.96191860000002 111.49485440000002 -10)
 
         
         (fp_text reference "D24" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3647,13 +3647,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 24 "index_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 24 "index_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 24 "index_number"))
     )
   
@@ -3663,7 +3663,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 187.17440990000003 93.27591090000003 -10)
+        (at 187.08758580000003 93.76831480000003 -10)
 
         
         (fp_text reference "D25" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3686,13 +3686,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 25 "index_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 25 "index_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 25 "index_frow"))
     )
   
@@ -3702,7 +3702,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 192.94896789999999 169.94340400000002 -10)
+        (at 192.86214379999998 170.43580790000001 -10)
 
         
         (fp_text reference "D26" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3725,13 +3725,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 26 "indexfar_bottom"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "P16"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 26 "indexfar_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "P16"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 26 "indexfar_bottom"))
     )
   
@@ -3741,7 +3741,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 196.0746351 152.21686440000002 -10)
+        (at 195.987811 152.70926830000002 -10)
 
         
         (fp_text reference "D27" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3764,13 +3764,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 27 "indexfar_home"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "P14"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 27 "indexfar_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "P14"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 27 "indexfar_home"))
     )
   
@@ -3780,7 +3780,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 199.2003023 134.49032480000002 -10)
+        (at 199.1134782 134.98272870000002 -10)
 
         
         (fp_text reference "D28" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3803,13 +3803,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 28 "indexfar_top"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "P15"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 28 "indexfar_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "P15"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 28 "indexfar_top"))
     )
   
@@ -3819,7 +3819,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 202.3259695 116.76378520000002 -10)
+        (at 202.2391454 117.25618910000001 -10)
 
         
         (fp_text reference "D29" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3842,13 +3842,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 29 "indexfar_number"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P18"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 29 "indexfar_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P18"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 29 "indexfar_number"))
     )
   
@@ -3858,7 +3858,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 205.45163670000002 99.03724560000002 -10)
+        (at 205.36481260000002 99.52964950000002 -10)
 
         
         (fp_text reference "D30" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3881,13 +3881,13 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 30 "indexfar_frow"))
-        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
+        (pad 1 smd rect (at -1.65 0 -10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P19"))
         (pad 2 smd rect (at 1.65 0 -10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 30 "indexfar_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
+        (pad 1 thru_hole rect (at -3.81 0 -10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P19"))
         (pad 2 thru_hole circle (at 3.81 0 -10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 30 "indexfar_frow"))
     )
   
@@ -3897,7 +3897,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 167.34189849999999 188.2097232 -31)
+        (at 167.0843794 188.6383068 -31)
 
         
         (fp_text reference "D31" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3920,14 +3920,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 32 "near_thumb"))
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "near_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "near_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "near_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P9"))
-        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 32 "near_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P10"))
+        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "near_thumb"))
     )
   
     
@@ -3936,7 +3936,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 183.62807719999998 197.9954466 -31)
+        (at 183.37055809999998 198.4240302 -31)
 
         
         (fp_text reference "D32" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3959,14 +3959,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 34 "home_thumb"))
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 34 "home_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 32 "home_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 32 "home_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P9"))
-        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 34 "home_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P10"))
+        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 32 "home_thumb"))
     )
   
     
@@ -3975,7 +3975,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 199.9142559 207.78117010000003 -31)
+        (at 199.6567368 208.20975370000002 -31)
 
         
         (fp_text reference "D33" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -3998,14 +3998,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 36 "far_thumb"))
-        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P9"))
-        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 36 "far_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "far_thumb"))
+        (pad 1 smd rect (at -1.65 0 -31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 72 "P10"))
+        (pad 2 smd rect (at 1.65 0 -31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "far_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P9"))
-        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 36 "far_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 -31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 72 "P10"))
+        (pad 2 thru_hole circle (at 3.81 0 -31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "far_thumb"))
     )
   
     
@@ -4014,7 +4014,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 350.0228451 158.3708659 10)
+        (at 350.1096692 158.8632698 10)
 
         
         (fp_text reference "D34" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4037,14 +4037,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 37 "mirror_outer_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 37 "mirror_outer_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 34 "mirror_outer_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 34 "mirror_outer_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 37 "mirror_outer_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 34 "mirror_outer_bottom"))
     )
   
     
@@ -4053,7 +4053,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 346.8971779 140.64432630000002 10)
+        (at 346.984002 141.13673020000002 10)
 
         
         (fp_text reference "D35" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4076,14 +4076,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 38 "mirror_outer_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 38 "mirror_outer_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "mirror_outer_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "mirror_outer_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 38 "mirror_outer_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "mirror_outer_home"))
     )
   
     
@@ -4092,7 +4092,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 343.77151069999996 122.91778670000001 10)
+        (at 343.85833479999997 123.4101906 10)
 
         
         (fp_text reference "D36" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4115,14 +4115,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 39 "mirror_outer_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 39 "mirror_outer_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 36 "mirror_outer_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 36 "mirror_outer_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 39 "mirror_outer_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 36 "mirror_outer_top"))
     )
   
     
@@ -4131,7 +4131,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 340.6458435 105.19124710000001 10)
+        (at 340.7326676 105.68365100000001 10)
 
         
         (fp_text reference "D37" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4154,14 +4154,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 40 "mirror_outer_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 40 "mirror_outer_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 37 "mirror_outer_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 37 "mirror_outer_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 40 "mirror_outer_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 37 "mirror_outer_number"))
     )
   
     
@@ -4170,7 +4170,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 337.5201763 87.46470750000002 10)
+        (at 337.6070004 87.95711140000002 10)
 
         
         (fp_text reference "D38" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4193,14 +4193,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 41 "mirror_outer_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 41 "mirror_outer_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 38 "mirror_outer_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 38 "mirror_outer_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 41 "mirror_outer_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 38 "mirror_outer_frow"))
     )
   
     
@@ -4209,7 +4209,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 330.8773773 159.20816190000002 10)
+        (at 330.9642014 159.70056580000002 10)
 
         
         (fp_text reference "D39" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4232,14 +4232,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 42 "mirror_pinky_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 42 "mirror_pinky_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 39 "mirror_pinky_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 39 "mirror_pinky_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 42 "mirror_pinky_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 39 "mirror_pinky_bottom"))
     )
   
     
@@ -4248,7 +4248,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 327.75171009999997 141.48162230000003 10)
+        (at 327.83853419999997 141.97402620000003 10)
 
         
         (fp_text reference "D40" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4271,14 +4271,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 43 "mirror_pinky_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 43 "mirror_pinky_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 40 "mirror_pinky_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 40 "mirror_pinky_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 43 "mirror_pinky_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 40 "mirror_pinky_home"))
     )
   
     
@@ -4287,7 +4287,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 324.62604289999996 123.75508270000002 10)
+        (at 324.71286699999996 124.24748660000002 10)
 
         
         (fp_text reference "D41" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4310,14 +4310,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 44 "mirror_pinky_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 44 "mirror_pinky_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 41 "mirror_pinky_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 41 "mirror_pinky_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 44 "mirror_pinky_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 41 "mirror_pinky_top"))
     )
   
     
@@ -4326,7 +4326,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 321.5003757 106.02854310000002 10)
+        (at 321.5871998 106.52094700000002 10)
 
         
         (fp_text reference "D42" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4349,14 +4349,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 45 "mirror_pinky_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 45 "mirror_pinky_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 42 "mirror_pinky_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 42 "mirror_pinky_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 45 "mirror_pinky_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 42 "mirror_pinky_number"))
     )
   
     
@@ -4365,7 +4365,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 318.37470849999994 88.30200350000003 10)
+        (at 318.46153259999994 88.79440740000003 10)
 
         
         (fp_text reference "D43" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4388,14 +4388,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 46 "mirror_pinky_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 46 "mirror_pinky_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 43 "mirror_pinky_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 43 "mirror_pinky_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 46 "mirror_pinky_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 43 "mirror_pinky_frow"))
     )
   
     
@@ -4404,7 +4404,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 310.95049279999995 155.61382300000002 10)
+        (at 311.03731689999995 156.10622690000002 10)
 
         
         (fp_text reference "D44" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4427,14 +4427,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 47 "mirror_ring_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 47 "mirror_ring_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 44 "mirror_ring_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 44 "mirror_ring_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 47 "mirror_ring_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 44 "mirror_ring_bottom"))
     )
   
     
@@ -4443,7 +4443,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 307.8248256 137.88728340000003 10)
+        (at 307.9116497 138.37968730000003 10)
 
         
         (fp_text reference "D45" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4466,14 +4466,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 48 "mirror_ring_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 48 "mirror_ring_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 45 "mirror_ring_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 45 "mirror_ring_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 48 "mirror_ring_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 45 "mirror_ring_home"))
     )
   
     
@@ -4482,7 +4482,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 304.69915839999993 120.16074380000002 10)
+        (at 304.78598249999993 120.65314770000002 10)
 
         
         (fp_text reference "D46" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4505,14 +4505,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 49 "mirror_ring_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 49 "mirror_ring_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 46 "mirror_ring_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 46 "mirror_ring_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 49 "mirror_ring_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 46 "mirror_ring_top"))
     )
   
     
@@ -4521,7 +4521,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 301.5734912 102.43420420000002 10)
+        (at 301.6603153 102.92660810000002 10)
 
         
         (fp_text reference "D47" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4544,14 +4544,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 50 "mirror_ring_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 50 "mirror_ring_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 47 "mirror_ring_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 47 "mirror_ring_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 50 "mirror_ring_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 47 "mirror_ring_number"))
     )
   
     
@@ -4560,7 +4560,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 298.4478239999999 84.70766460000003 10)
+        (at 298.5346480999999 85.20006850000003 10)
 
         
         (fp_text reference "D48" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4583,14 +4583,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 51 "mirror_ring_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 51 "mirror_ring_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 48 "mirror_ring_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 48 "mirror_ring_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 51 "mirror_ring_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 48 "mirror_ring_frow"))
     )
   
     
@@ -4599,7 +4599,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 291.37090459999996 153.9890996 10)
+        (at 291.45772869999996 154.4815035 10)
 
         
         (fp_text reference "D49" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4622,14 +4622,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 52 "mirror_middle_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 52 "mirror_middle_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 49 "mirror_middle_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 49 "mirror_middle_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 52 "mirror_middle_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 49 "mirror_middle_bottom"))
     )
   
     
@@ -4638,7 +4638,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 288.2452374 136.26256 10)
+        (at 288.3320615 136.7549639 10)
 
         
         (fp_text reference "D50" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4661,14 +4661,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 53 "mirror_middle_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 53 "mirror_middle_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 50 "mirror_middle_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 50 "mirror_middle_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 53 "mirror_middle_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 50 "mirror_middle_home"))
     )
   
     
@@ -4677,7 +4677,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 285.11957019999994 118.5360204 10)
+        (at 285.20639429999994 119.0284243 10)
 
         
         (fp_text reference "D51" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4700,14 +4700,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 54 "mirror_middle_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 54 "mirror_middle_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 51 "mirror_middle_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 51 "mirror_middle_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 54 "mirror_middle_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 51 "mirror_middle_top"))
     )
   
     
@@ -4716,7 +4716,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 281.993903 100.8094808 10)
+        (at 282.0807271 101.3018847 10)
 
         
         (fp_text reference "D52" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4739,14 +4739,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 55 "mirror_middle_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 55 "mirror_middle_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 52 "mirror_middle_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 52 "mirror_middle_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 55 "mirror_middle_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 52 "mirror_middle_number"))
     )
   
     
@@ -4755,7 +4755,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 278.8682357999999 83.08294120000001 10)
+        (at 278.9550598999999 83.5753451 10)
 
         
         (fp_text reference "D53" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4778,14 +4778,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 56 "mirror_middle_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 56 "mirror_middle_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 53 "mirror_middle_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 53 "mirror_middle_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 56 "mirror_middle_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 53 "mirror_middle_frow"))
     )
   
     
@@ -4794,7 +4794,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 273.8750945 164.18206930000002 10)
+        (at 273.9619186 164.67447320000002 10)
 
         
         (fp_text reference "D54" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4817,14 +4817,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 57 "mirror_index_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 57 "mirror_index_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 54 "mirror_index_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 54 "mirror_index_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 57 "mirror_index_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 54 "mirror_index_bottom"))
     )
   
     
@@ -4833,7 +4833,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 270.7494273 146.45552970000003 10)
+        (at 270.8362514 146.94793360000003 10)
 
         
         (fp_text reference "D55" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4856,14 +4856,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 58 "mirror_index_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 58 "mirror_index_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 55 "mirror_index_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 55 "mirror_index_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 58 "mirror_index_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 55 "mirror_index_home"))
     )
   
     
@@ -4872,7 +4872,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 267.62376009999997 128.72899010000003 10)
+        (at 267.71058419999997 129.22139400000003 10)
 
         
         (fp_text reference "D56" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4895,14 +4895,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 59 "mirror_index_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 59 "mirror_index_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 56 "mirror_index_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 56 "mirror_index_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 59 "mirror_index_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 56 "mirror_index_top"))
     )
   
     
@@ -4911,7 +4911,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 264.49809289999996 111.00245050000002 10)
+        (at 264.58491699999996 111.49485440000002 10)
 
         
         (fp_text reference "D57" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4934,14 +4934,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 60 "mirror_index_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 60 "mirror_index_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 57 "mirror_index_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 57 "mirror_index_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 60 "mirror_index_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 57 "mirror_index_number"))
     )
   
     
@@ -4950,7 +4950,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 261.37242569999995 93.27591090000003 10)
+        (at 261.45924979999995 93.76831480000003 10)
 
         
         (fp_text reference "D58" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -4973,14 +4973,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 61 "mirror_index_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 61 "mirror_index_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 58 "mirror_index_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 58 "mirror_index_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 61 "mirror_index_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 58 "mirror_index_frow"))
     )
   
     
@@ -4989,7 +4989,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 255.59786770000002 169.94340400000002 10)
+        (at 255.68469180000002 170.43580790000001 10)
 
         
         (fp_text reference "D59" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5012,14 +5012,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 62 "mirror_indexfar_bottom"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 70 "P15"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 62 "mirror_indexfar_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 59 "mirror_indexfar_bottom"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 59 "mirror_indexfar_bottom"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 70 "P15"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 62 "mirror_indexfar_bottom"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 59 "mirror_indexfar_bottom"))
     )
   
     
@@ -5028,7 +5028,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 252.4722005 152.21686440000002 10)
+        (at 252.55902460000001 152.70926830000002 10)
 
         
         (fp_text reference "D60" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5051,14 +5051,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 63 "mirror_indexfar_home"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 71 "P18"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 63 "mirror_indexfar_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 60 "mirror_indexfar_home"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 74 "P7"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 60 "mirror_indexfar_home"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 71 "P18"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 63 "mirror_indexfar_home"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 74 "P7"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 60 "mirror_indexfar_home"))
     )
   
     
@@ -5067,7 +5067,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 249.3465333 134.49032480000002 10)
+        (at 249.4333574 134.98272870000002 10)
 
         
         (fp_text reference "D61" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5090,14 +5090,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 64 "mirror_indexfar_top"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 31 "P19"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 64 "mirror_indexfar_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 61 "mirror_indexfar_top"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 75 "P6"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 61 "mirror_indexfar_top"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 31 "P19"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 64 "mirror_indexfar_top"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 75 "P6"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 61 "mirror_indexfar_top"))
     )
   
     
@@ -5106,7 +5106,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 246.2208661 116.76378520000002 10)
+        (at 246.3076902 117.25618910000001 10)
 
         
         (fp_text reference "D62" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5129,14 +5129,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 65 "mirror_indexfar_number"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 33 "P20"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 65 "mirror_indexfar_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 62 "mirror_indexfar_number"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 76 "P5"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 62 "mirror_indexfar_number"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 33 "P20"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 65 "mirror_indexfar_number"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 76 "P5"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 62 "mirror_indexfar_number"))
     )
   
     
@@ -5145,7 +5145,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 243.09519889999999 99.03724560000002 10)
+        (at 243.182023 99.52964950000002 10)
 
         
         (fp_text reference "D63" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5168,14 +5168,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 66 "mirror_indexfar_frow"))
-        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 35 "P21"))
-        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 66 "mirror_indexfar_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 63 "mirror_indexfar_frow"))
+        (pad 1 smd rect (at -1.65 0 10) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 77 "P4"))
+        (pad 2 smd rect (at 1.65 0 10) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 63 "mirror_indexfar_frow"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 35 "P21"))
-        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 66 "mirror_indexfar_frow"))
+        (pad 1 thru_hole rect (at -3.81 0 10) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 77 "P4"))
+        (pad 2 thru_hole circle (at 3.81 0 10) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 63 "mirror_indexfar_frow"))
     )
   
     
@@ -5184,7 +5184,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 281.2049371 188.2097232 31)
+        (at 281.4624562 188.6383068 31)
 
         
         (fp_text reference "D64" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5207,14 +5207,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 67 "mirror_near_thumb"))
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 67 "mirror_near_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 64 "mirror_near_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 64 "mirror_near_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
-        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 67 "mirror_near_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 78 "P9"))
+        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 64 "mirror_near_thumb"))
     )
   
     
@@ -5223,7 +5223,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 264.91875840000006 197.9954466 31)
+        (at 265.1762775000001 198.4240302 31)
 
         
         (fp_text reference "D65" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5246,14 +5246,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 68 "mirror_home_thumb"))
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 68 "mirror_home_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 65 "mirror_home_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 65 "mirror_home_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
-        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 68 "mirror_home_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 78 "P9"))
+        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 65 "mirror_home_thumb"))
     )
   
     
@@ -5262,7 +5262,7 @@
     (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
-        (at 248.6325797 207.78117010000003 31)
+        (at 248.8900988 208.20975370000002 31)
 
         
         (fp_text reference "D66" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
@@ -5285,14 +5285,14 @@
         (fp_line (start -0.75 0) (end -0.35 0) (layer B.SilkS) (width 0.1))
     
         
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 69 "mirror_far_thumb"))
-        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 73 "P8"))
-        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 69 "mirror_far_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 66 "mirror_far_thumb"))
+        (pad 1 smd rect (at -1.65 0 31) (size 0.9 1.2) (layers B.Cu B.Paste B.Mask) (net 78 "P9"))
+        (pad 2 smd rect (at 1.65 0 31) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask) (net 66 "mirror_far_thumb"))
         
         
-        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 73 "P8"))
-        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 69 "mirror_far_thumb"))
+        (pad 1 thru_hole rect (at -3.81 0 31) (size 1.778 1.778) (drill 0.9906) (layers *.Cu *.Mask) (net 78 "P9"))
+        (pad 2 thru_hole circle (at 3.81 0 31) (size 1.905 1.905) (drill 0.9906) (layers *.Cu *.Mask) (net 66 "mirror_far_thumb"))
     )
   
     
@@ -5351,31 +5351,31 @@
         (fp_text user P09 (at 13.97 -4.8 0) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15))))
       
         
-        (pad 1 thru_hole rect (at -13.97 7.62 -90) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 74 "RAW"))
-        (pad 2 thru_hole circle (at -11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 75 "GND"))
-        (pad 3 thru_hole circle (at -8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 76 "RST"))
-        (pad 4 thru_hole circle (at -6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 77 "VCC"))
-        (pad 5 thru_hole circle (at -3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 35 "P21"))
-        (pad 6 thru_hole circle (at -1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 33 "P20"))
-        (pad 7 thru_hole circle (at 1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 31 "P19"))
-        (pad 8 thru_hole circle (at 3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 71 "P18"))
-        (pad 9 thru_hole circle (at 6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 70 "P15"))
-        (pad 10 thru_hole circle (at 8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 78 "P14"))
-        (pad 11 thru_hole circle (at 11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 79 "P16"))
-        (pad 12 thru_hole circle (at 13.97 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 80 "P10"))
+        (pad 1 thru_hole rect (at -13.97 7.62 -90) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 79 "RAW"))
+        (pad 2 thru_hole circle (at -11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 80 "GND"))
+        (pad 3 thru_hole circle (at -8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 81 "RST"))
+        (pad 4 thru_hole circle (at -6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 82 "VCC"))
+        (pad 5 thru_hole circle (at -3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 83 "P21"))
+        (pad 6 thru_hole circle (at -1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 84 "P20"))
+        (pad 7 thru_hole circle (at 1.27 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 71 "P19"))
+        (pad 8 thru_hole circle (at 3.81 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 70 "P18"))
+        (pad 9 thru_hole circle (at 6.35 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 69 "P15"))
+        (pad 10 thru_hole circle (at 8.89 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 68 "P14"))
+        (pad 11 thru_hole circle (at 11.43 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 67 "P16"))
+        (pad 12 thru_hole circle (at 13.97 7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 72 "P10"))
         
-        (pad 13 thru_hole circle (at -13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 81 "P1"))
-        (pad 14 thru_hole circle (at -11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 82 "P0"))
-        (pad 15 thru_hole circle (at -8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 75 "GND"))
-        (pad 16 thru_hole circle (at -6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 75 "GND"))
-        (pad 17 thru_hole circle (at -3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 83 "P2"))
-        (pad 18 thru_hole circle (at -1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 84 "P3"))
-        (pad 19 thru_hole circle (at 1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 85 "P4"))
-        (pad 20 thru_hole circle (at 3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 86 "P5"))
-        (pad 21 thru_hole circle (at 6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 87 "P6"))
-        (pad 22 thru_hole circle (at 8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 88 "P7"))
+        (pad 13 thru_hole circle (at -13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 85 "P1"))
+        (pad 14 thru_hole circle (at -11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 86 "P0"))
+        (pad 15 thru_hole circle (at -8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 80 "GND"))
+        (pad 16 thru_hole circle (at -6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 80 "GND"))
+        (pad 17 thru_hole circle (at -3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 87 "P2"))
+        (pad 18 thru_hole circle (at -1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 88 "P3"))
+        (pad 19 thru_hole circle (at 1.27 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 77 "P4"))
+        (pad 20 thru_hole circle (at 3.81 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 76 "P5"))
+        (pad 21 thru_hole circle (at 6.35 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 75 "P6"))
+        (pad 22 thru_hole circle (at 8.89 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 74 "P7"))
         (pad 23 thru_hole circle (at 11.43 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 73 "P8"))
-        (pad 24 thru_hole circle (at 13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 72 "P9"))
+        (pad 24 thru_hole circle (at 13.97 -7.62 0) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 78 "P9"))
       )
         
   (gr_line (start 226.34849228437173 196.81828090000002) (end 222.1983433156283 196.81828090000002) (angle 90) (layer Edge.Cuts) (width 0.15))

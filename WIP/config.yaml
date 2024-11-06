@@ -184,7 +184,7 @@ pcbs:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [0, -8.5]
+          shift: [0, -9]
       pro_micro:
         what: promicro
         params:
