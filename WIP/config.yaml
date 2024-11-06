@@ -5,59 +5,91 @@ meta:
 units:
   kx: cx
   ky: cy
-  px: 2
-  py: 2
+  px: 3
+  py: 3
   hx: cx/2
   hy: cy/2
 points:
   zones:
     matrix:
+      key:
+        padding: cy+1
+        spread: cx+1
       anchor:
         rotate: -10
         shift: [100, -150]
       columns:
         outer:
+          key:
+            height: cy
+            width: cx
         pinky:
-          key.stagger: 2.5
+          key:
+            height: cy
+            width: cx
+            stagger: 2.5
         ring:
-          key.stagger: 7
+          key:
+            height: cy
+            width: cx
+            stagger: 7
         middle:
-          key.stagger: 5
+          key:
+            height: cy
+            width: cx
+            stagger: 5
         index:
           key:
-            col_net: P20
-            mirror.col_net: P0
-          key.stagger: -7
+            height: cy
+            width: cx
+            stagger: -7
         indexfar:
           key:
-            col_net: P21
-            mirror.col_net: P1
-          key.stagger: -2.5
+            height: cy
+            width: cx
+            stagger: -2.5
       rows:
         bottom:
+            row_net: P15
         home:
+            row_net: P18
         top:
+            row_net: P19
         number:
+            row_net: P20
         frow:
+            row_net: P21
     thumbrow:
+      key:
+        padding: cy+1
+        spread: cx+1
       anchor:
         ref: matrix_index_bottom
         shift: [0, -1.5ky]
       columns:
         near:
-          key.splay: -21
-          key.height: cy
-          key.width: cx
+          key:
+            splay: -21
+            height: cy
+            width: cx
+            col_net: P19
+            mirror.col_net: P19
         home:
-          key.origin: [-11.75, -9]
-          key.height: cy
-          key.width: cx
+          key:
+            height: cy
+            width: cx
+            col_net: P20
+            mirror.col_net: P20
         far:
-          key.origin: [-9.5, -9]
-          key.height: cy
-          key.width: cx
+          key:
+            height: cy
+            width: cx
+            col_net: P21
+            mirror.col_net: P21
       rows:
         thumb:
+          row_net: P9
+          mirror.row_net: P8
   mirror:
     ref: matrix_index_home
     distance: 90
@@ -66,65 +98,65 @@ outlines:
     - what: rectangle
       where: true
       size: [cx + px, cy + py]
-      fillet: 0
+      fillet: 3
     - what: polygon
       points:
         - ref: thumbrow_far_thumb
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: thumbrow_far_thumb
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: thumbrow_near_thumb
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: matrix_index_bottom
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: matrix_ring_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: matrix_pinky_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: matrix_outer_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: matrix_outer_bottom
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: matrix_outer_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: matrix_pinky_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: matrix_middle_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: matrix_middle_frow
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: matrix_indexfar_frow
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: matrix_indexfar_number
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: mirror_matrix_indexfar_number
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: mirror_matrix_indexfar_frow
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: mirror_matrix_middle_frow
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
         - ref: mirror_matrix_middle_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: mirror_matrix_pinky_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: mirror_matrix_outer_frow
-          shift: [-hx-3, hy+3]
+          shift: [-hx-px, hy+py]
         - ref: mirror_matrix_outer_bottom
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: mirror_matrix_outer_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: mirror_matrix_pinky_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: mirror_matrix_ring_bottom
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: mirror_matrix_index_bottom
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: mirror_thumbrow_near_thumb
-          shift: [-hx-3, -hy-3]
+          shift: [-hx-px, -hy-py]
         - ref: mirror_thumbrow_far_thumb
-          shift: [hx+3, -hy-3]
+          shift: [hx+px, -hy-py]
         - ref: mirror_thumbrow_far_thumb
-          shift: [hx+3, hy+3]
+          shift: [hx+px, hy+py]
       fillet: 3
       operation: add
 pcbs:
