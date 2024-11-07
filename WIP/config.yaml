@@ -21,30 +21,42 @@ points:
       columns:
         outer:
           key:
+            col_net: P20
+            mirror.col_net: P20
             height: cy
             width: cx
         pinky:
           key:
+            col_net: P21
+            mirror.col_net: P21
             height: cy
             width: cx
             stagger: 2.5
         ring:
           key:
+            col_net: P3
+            mirror.col_net: P3
             height: cy
             width: cx
             stagger: 7
         middle:
           key:
+            col_net: P2
+            mirror.col_net: P2
             height: cy
             width: cx
             stagger: 5
         index:
           key:
+            col_net: P0
+            mirror.col_net: P0
             height: cy
             width: cx
             stagger: -7
         indexfar:
           key:
+            col_net: P1
+            mirror.col_net: P1
             height: cy
             width: cx
             stagger: -2.5
@@ -74,23 +86,23 @@ points:
       columns:
         near:
           key:
+            col_net: P2
+            mirror.col_net: P2
             splay: -21
             height: cy
             width: cx
-            #col_net: P
-            #mirror.col_net: P
         home:
           key:
+            col_net: P0
+            mirror.col_net: P0
             height: cy
             width: cx
-            #col_net: P20
-            #mirror.col_net: P20
         far:
           key:
+            col_net: P1
+            mirror.col_net: P1
             height: cy
             width: cx
-            #col_net: P21
-            #mirror.col_net: P21
       rows:
         thumb:
           row_net: P10
