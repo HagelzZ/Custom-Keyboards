@@ -203,5 +203,5 @@ pcbs:
           orientation: down
         where:
           ref.aggregate.parts: [matrix_indexfar_number, mirror_matrix_indexfar_number]
-          shift: [0, -15]
+          shift: [0, -11.5]
           rotate: -90

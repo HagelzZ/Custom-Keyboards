@@ -2,3 +2,4 @@
 
 .vscode/
 cicadav1-backups/
+*.lck

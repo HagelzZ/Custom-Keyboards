@@ -5299,7 +5299,7 @@
 
         
       (module ProMicro (layer F.Cu) (tedit 5B307E4C)
-      (at 224.2734178 123.39291930000002 -90)
+      (at 224.2734178 119.89291930000002 -90)
 
       
       (fp_text reference "MCU1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
