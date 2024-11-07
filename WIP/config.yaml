@@ -111,12 +111,13 @@ points:
     ref: matrix_index_home
     distance: 90
 outlines:
-  plate:
+  keys:
     - what: rectangle
       where: true
-      size: [cx + px, cy + py]
-      fillet: 3
+      size: [cx, cy]
+  board:
     - what: polygon
+      operation: stack
       points:
         - ref: thumbrow_far_thumb
           shift: [hx+px, hy+py]
@@ -175,12 +176,15 @@ outlines:
         - ref: mirror_thumbrow_far_thumb
           shift: [hx+px, hy+py]
       fillet: 3
-      operation: add
+  combo:
+    - name: board
+    - operation: subtract
+      name: keys
 pcbs:
   cicadav1:
     outlines:
       main:
-        outline: plate
+        outline: board
     footprints:
       hotswap_choc:
         where: true
