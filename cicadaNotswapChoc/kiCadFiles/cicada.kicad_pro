@@ -221,7 +221,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cicadav1mxchoc.kicad_pro",
+    "filename": "cicada.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -276,10 +276,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "outer_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "P21"
       },
       {
@@ -297,10 +293,6 @@
       {
         "netclass": "Default",
         "pattern": "pinky_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "pinky_frow"
       },
       {
         "netclass": "Default",
@@ -324,10 +316,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "ring_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "P2"
       },
       {
@@ -345,10 +333,6 @@
       {
         "netclass": "Default",
         "pattern": "middle_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "middle_frow"
       },
       {
         "netclass": "Default",
@@ -372,10 +356,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "index_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "P1"
       },
       {
@@ -393,10 +373,6 @@
       {
         "netclass": "Default",
         "pattern": "indexfar_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "indexfar_frow"
       },
       {
         "netclass": "Default",
@@ -428,10 +404,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mirror_outer_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "mirror_pinky_bottom"
       },
       {
@@ -445,10 +417,6 @@
       {
         "netclass": "Default",
         "pattern": "mirror_pinky_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "mirror_pinky_frow"
       },
       {
         "netclass": "Default",
@@ -468,10 +436,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mirror_ring_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "mirror_middle_bottom"
       },
       {
@@ -485,10 +449,6 @@
       {
         "netclass": "Default",
         "pattern": "mirror_middle_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "mirror_middle_frow"
       },
       {
         "netclass": "Default",
@@ -508,10 +468,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "mirror_index_frow"
-      },
-      {
-        "netclass": "Default",
         "pattern": "mirror_indexfar_bottom"
       },
       {
@@ -525,10 +481,6 @@
       {
         "netclass": "Default",
         "pattern": "mirror_indexfar_number"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "mirror_indexfar_frow"
       },
       {
         "netclass": "Default",
@@ -560,10 +512,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "P19"
-      },
-      {
-        "netclass": "Default",
         "pattern": "P10"
       },
       {
@@ -584,10 +532,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "P4"
-      },
-      {
-        "netclass": "Default",
         "pattern": "P9"
       },
       {
@@ -605,6 +549,14 @@
       {
         "netclass": "Default",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "P19"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "P4"
       }
     ]
   },
