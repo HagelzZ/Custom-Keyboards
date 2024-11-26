@@ -2,6 +2,7 @@ meta:
   engine: 4.1.0
   version: 1.1
   author: HagelzZ
+  name: cicada
 units:
   kx: cx
   ky: cy
@@ -13,8 +14,8 @@ points:
   zones:
     matrix:
       key:
-        padding: U
-        spread: U
+        padding: ky+0.5
+        spread: kx+0.5
       anchor:
         rotate: -10
         shift: [100, -150]
@@ -23,42 +24,42 @@ points:
           key:
             col_net: P20
             mirror.col_net: P20
-            height: U
-            width: U
+            height: ky
+            width: kx
         pinky:
           key:
             col_net: P21
             mirror.col_net: P21
-            height: U
-            width: U
+            height: ky
+            width: kx
             stagger: 2.5
         ring:
           key:
             col_net: P3
             mirror.col_net: P3
-            height: U
-            width: U
+            height: ky
+            width: kx
             stagger: 7
         middle:
           key:
             col_net: P2
             mirror.col_net: P2
-            height: U
-            width: U
+            height: ky
+            width: kx
             stagger: 5
         index:
           key:
             col_net: P0
             mirror.col_net: P0
-            height: U
-            width: U
+            height: ky
+            width: kx
             stagger: -7
         indexfar:
           key:
             col_net: P1
             mirror.col_net: P1
-            height: U
-            width: U
+            height: ky
+            width: kx
             stagger: -2.5
       rows:
         bottom:
@@ -73,13 +74,13 @@ points:
         number:
             row_net: P18
             mirror.row_net: P5
-        frow:
-            row_net: P19
-            mirror.row_net: P4
+#        frow:
+#            row_net: P19
+#            mirror.row_net: P4
     thumbrow:
       key:
-        padding: U
-        spread: U
+        padding: ky+0.5
+        spread: kx+0.5
       anchor:
         ref: matrix_index_bottom
         shift: [0, -1.5ky]
@@ -89,20 +90,20 @@ points:
             col_net: P2
             mirror.col_net: P2
             splay: -21
-            height: U
-            width: U
+            height: ky
+            width: kx
         home:
           key:
             col_net: P0
             mirror.col_net: P0
-            height: U
-            width: U
+            height: ky
+            width: kx
         far:
           key:
             col_net: P1
             mirror.col_net: P1
-            height: U
-            width: U
+            height: ky
+            width: kx
       rows:
         thumb:
           row_net: P10
@@ -114,7 +115,7 @@ outlines:
   keys:
     - what: rectangle
       where: true
-      size: [cx, cy]
+      size: [kx, ky]
   board:
     - what: polygon
       operation: stack
@@ -135,29 +136,29 @@ outlines:
           shift: [hx+px, -hy-py]
         - ref: matrix_outer_bottom
           shift: [-hx-px, -hy-py]
-        - ref: matrix_outer_frow
+        - ref: matrix_outer_number
           shift: [-hx-px, hy+py]
-        - ref: matrix_pinky_frow
+        - ref: matrix_pinky_number
           shift: [-hx-px, hy+py]
-        - ref: matrix_middle_frow
+        - ref: matrix_middle_number
           shift: [-hx-px, hy+py]
-        - ref: matrix_middle_frow
+        - ref: matrix_middle_number
           shift: [hx+px, hy+py]
-        - ref: matrix_indexfar_frow
+        - ref: matrix_indexfar_number
           shift: [hx+px, hy+py]
         - ref: matrix_indexfar_number
           shift: [hx+px, hy+py]
         - ref: mirror_matrix_indexfar_number
           shift: [hx+px, hy+py]
-        - ref: mirror_matrix_indexfar_frow
+        - ref: mirror_matrix_indexfar_number
           shift: [hx+px, hy+py]
-        - ref: mirror_matrix_middle_frow
+        - ref: mirror_matrix_middle_number
           shift: [hx+px, hy+py]
-        - ref: mirror_matrix_middle_frow
+        - ref: mirror_matrix_middle_number
           shift: [-hx-px, hy+py]
-        - ref: mirror_matrix_pinky_frow
+        - ref: mirror_matrix_pinky_number
           shift: [-hx-px, hy+py]
-        - ref: mirror_matrix_outer_frow
+        - ref: mirror_matrix_outer_number
           shift: [-hx-px, hy+py]
         - ref: mirror_matrix_outer_bottom
           shift: [-hx-px, -hy-py]
@@ -181,7 +182,7 @@ outlines:
     - operation: subtract
       name: keys
 pcbs:
-  cicadav1mxchoc:
+  cicada:
     outlines:
       main:
         outline: board
@@ -189,13 +190,6 @@ pcbs:
       choc:
         where: true
         what: choc
-        params:
-          hotswap: false
-          from: "{{col_net}}"
-          to: "{{colrow}}"
-      mx:
-        where: true
-        what: mx
         params:
           hotswap: false
           from: "{{col_net}}"
